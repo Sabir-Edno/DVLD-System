@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DVLD_System</RootNamespace>
+    <AssemblyName>DVLD System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\ClsApplicationBusinessLayer.csproj">
+      <Project>{3be0dfd1-793a-4fd3-a354-176e46e139bc}</Project>
+      <Name>ClsApplicationBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\ApplicationTypes\ClsApplicationTypeBusinessLayer\ClsApplicationTypeBusinessLayer.csproj">
+      <Project>{b328b549-73a6-4fdd-8d64-52370b2576fe}</Project>
+      <Name>ClsApplicationTypeBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\ClsCountryBusinessLayer.csproj">
+      <Project>{cb72aff2-e6e3-41d3-b19a-ab9e91769e74}</Project>
+      <Name>ClsCountryBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\DetainedLicenses\ClsDetainedLicenseBusinessLayer\ClsDetaineLicenseBusinessLayer.csproj">
+      <Project>{1438e5b7-1356-4227-9fd9-9f2aa6f7b6a9}</Project>
+      <Name>ClsDetaineLicenseBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\Drivers\ClsDriverBusinessLayer\ClsDriverBusinessLayer.csproj">
+      <Project>{8f14ffe4-54f3-4522-8738-2e50fa16cc72}</Project>
+      <Name>ClsDriverBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\InternationalLicenses\ClsInternationalLicenseBusinessLayer\ClsInternationalLicenseBusinessLayer.csproj">
+      <Project>{b735cf89-6f8f-4c34-8f5f-f8acc76df9bc}</Project>
+      <Name>ClsInternationalLicenseBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\ClsLicenseClassBusinessLayer.csproj">
+      <Project>{d7ce92e0-70b6-467e-ae81-31eabb15bc95}</Project>
+      <Name>ClsLicenseClassBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\Licenses\ClsLicenseBusinessLayer\ClsLicenseBusinessLayer.csproj">
+      <Project>{4d0820c6-39b3-430a-8184-0c345c2ef569}</Project>
+      <Name>ClsLicenseBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\LocalDrivingLicenseApplications\ClsLocalDrivingLicenseApplicationBusinessLayer\ClsLocalDrivingLicenseApplicationBusinessLayer.csproj">
+      <Project>{363a4875-13a6-49e5-8a12-6461ec1ca849}</Project>
+      <Name>ClsLocalDrivingLicenseApplicationBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\ClsPersonBusinessLayer.csproj">
+      <Project>{41c0e804-b8e9-4d89-9739-27ac7141f242}</Project>
+      <Name>ClsPersonBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\TestAppointments\ClsTestAppointmentBusinessLayer\ClsTestAppointmentBusinessLayer.csproj">
+      <Project>{9a8778af-6bca-4d5d-abb4-05185124db48}</Project>
+      <Name>ClsTestAppointmentBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\ClsTestBusineesLayer.csproj">
+      <Project>{dc7d795e-3c16-48ab-aa02-925d90105f08}</Project>
+      <Name>ClsTestBusineesLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\TestTypes\ClsTestTypeBusinessLayer\ClsTestTypeBusinessLayer.csproj">
+      <Project>{e0d3109a-5eab-44b9-9ad8-46f6cc2e14c5}</Project>
+      <Name>ClsTestTypeBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\Users\ClsUserBusinessLayer\ClsUserBusinessLayer.csproj">
+      <Project>{71a15e9d-6296-4727-ba60-b85abf039999}</Project>
+      <Name>ClsUserBusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
