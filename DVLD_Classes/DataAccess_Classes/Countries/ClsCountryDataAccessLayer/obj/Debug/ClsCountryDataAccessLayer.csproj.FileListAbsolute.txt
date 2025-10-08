@@ -1,0 +1,9 @@
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\bin\Debug\ClsCountryDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\bin\Debug\ClsCountryDataAccessLayer.pdb
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\obj\Debug\ClsCountryDataAccessLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\obj\Debug\ClsCountryDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\obj\Debug\ClsCount.94F1E49C.Up2Date
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\obj\Debug\ClsCountryDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Countries\ClsCountryDataAccessLayer\obj\Debug\ClsCountryDataAccessLayer.pdb

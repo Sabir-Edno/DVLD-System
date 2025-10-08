@@ -32,6 +32,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,16 +50,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CtrlShowPersonInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlShowPersonInfo.Designer.cs">
+      <DependentUpon>CtrlShowPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrrAddOrEditPersonInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrrAddOrEditPersonInfo.Designer.cs">
+      <DependentUpon>FrrAddOrEditPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrrManagePeopleScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrManagePeopleScreen.Designer.cs">
+      <DependentUpon>FrrManagePeopleScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrrShowPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrShowPersonInfo.Designer.cs">
+      <DependentUpon>FrrShowPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainScreen.Designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CtrlShowPersonInfo.resx">
+      <DependentUpon>CtrlShowPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrrAddOrEditPersonInfo.resx">
+      <DependentUpon>FrrAddOrEditPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrrManagePeopleScreen.resx">
+      <DependentUpon>FrrManagePeopleScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrrShowPersonInfo.resx">
+      <DependentUpon>FrrShowPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainScreen.resx">
+      <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -66,6 +106,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -135,6 +176,10 @@
     <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\Users\ClsUserBusinessLayer\ClsUserBusinessLayer.csproj">
       <Project>{71a15e9d-6296-4727-ba60-b85abf039999}</Project>
       <Name>ClsUserBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Global_Classes\ClsUtilLayer\ClsUtilLayer.csproj">
+      <Project>{3e01b829-d542-46e5-8e3a-394859e938a4}</Project>
+      <Name>ClsUtilLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

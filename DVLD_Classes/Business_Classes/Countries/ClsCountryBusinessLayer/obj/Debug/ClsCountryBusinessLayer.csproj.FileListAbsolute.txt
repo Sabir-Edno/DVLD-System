@@ -1,0 +1,11 @@
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\bin\Debug\ClsCountryBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\bin\Debug\ClsCountryBusinessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\bin\Debug\ClsCountryDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\bin\Debug\ClsCountryDataAccessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\obj\Debug\ClsCountryBusinessLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\obj\Debug\ClsCountryBusinessLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\obj\Debug\ClsCount.BE13B3CC.Up2Date
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\obj\Debug\ClsCountryBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Countries\ClsCountryBusinessLayer\obj\Debug\ClsCountryBusinessLayer.pdb

@@ -1,0 +1,11 @@
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\bin\Debug\ClsLicenseClassBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\bin\Debug\ClsLicenseClassBusinessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\bin\Debug\ClsLicenseClassDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\bin\Debug\ClsLicenseClassDataAccessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\obj\Debug\ClsLicenseClassBusinessLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\obj\Debug\ClsLicenseClassBusinessLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\obj\Debug\ClsLicen.B06B67DC.Up2Date
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\obj\Debug\ClsLicenseClassBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\LicenseClasses\ClsLicenseClassBusinessLayer\obj\Debug\ClsLicenseClassBusinessLayer.pdb

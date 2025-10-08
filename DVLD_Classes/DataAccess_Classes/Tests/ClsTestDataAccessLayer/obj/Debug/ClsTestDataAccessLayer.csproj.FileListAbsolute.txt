@@ -1,0 +1,9 @@
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\bin\Debug\ClsTestDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\bin\Debug\ClsTestDataAccessLayer.pdb
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\obj\Debug\ClsTestDataAccessLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\obj\Debug\ClsTestDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\obj\Debug\ClsTestD.A9272430.Up2Date
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\obj\Debug\ClsTestDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\DataAccess_Classes\Tests\ClsTestDataAccessLayer\obj\Debug\ClsTestDataAccessLayer.pdb

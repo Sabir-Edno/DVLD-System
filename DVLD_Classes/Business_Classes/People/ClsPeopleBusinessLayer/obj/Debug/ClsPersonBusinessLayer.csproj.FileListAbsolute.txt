@@ -1,0 +1,11 @@
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\bin\Debug\ClsPeopleBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\bin\Debug\ClsPeopleBusinessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\bin\Debug\ClsPeopleDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\bin\Debug\ClsPeopleDataAccessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\obj\Debug\ClsPersonBusinessLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\obj\Debug\ClsPersonBusinessLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\obj\Debug\ClsPerso.03A4C402.Up2Date
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\obj\Debug\ClsPeopleBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\People\ClsPeopleBusinessLayer\obj\Debug\ClsPeopleBusinessLayer.pdb

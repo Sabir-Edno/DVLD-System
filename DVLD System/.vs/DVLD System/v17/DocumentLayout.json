@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\DVLD System\\DVLD System\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frraddoreditpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frraddoreditpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|C:\\DVLD System\\DVLD System\\dvld system\\frrmanagepeoplescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrmanagepeoplescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|C:\\DVLD System\\DVLD System\\dvld system\\frrmanagepeoplescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrmanagepeoplescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frrshowpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrshowpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frrshowpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrshowpersoninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 134,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +59,69 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3822e751-eb69-4b0e-b301-595a9e4c74d5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrrAddOrEditPersonInfo.cs",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrAddOrEditPersonInfo.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrAddOrEditPersonInfo.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrAddOrEditPersonInfo.cs",
+              "RelativeToolTip": "DVLD System\\FrrAddOrEditPersonInfo.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T17:15:19.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrrShowPersonInfo.cs",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrShowPersonInfo.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrShowPersonInfo.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrShowPersonInfo.cs",
+              "RelativeToolTip": "DVLD System\\FrrShowPersonInfo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAvwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T17:08:59.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrrShowPersonInfo.cs [Design]",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrShowPersonInfo.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrShowPersonInfo.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrShowPersonInfo.cs [Design]",
+              "RelativeToolTip": "DVLD System\\FrrShowPersonInfo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T17:08:56.969Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrrManagePeopleScreen.cs",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManagePeopleScreen.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrManagePeopleScreen.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManagePeopleScreen.cs",
+              "RelativeToolTip": "DVLD System\\FrrManagePeopleScreen.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAewPkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T09:42:25.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrrManagePeopleScreen.cs [Design]",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManagePeopleScreen.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrManagePeopleScreen.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManagePeopleScreen.cs [Design]",
+              "RelativeToolTip": "DVLD System\\FrrManagePeopleScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T09:42:18.5Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

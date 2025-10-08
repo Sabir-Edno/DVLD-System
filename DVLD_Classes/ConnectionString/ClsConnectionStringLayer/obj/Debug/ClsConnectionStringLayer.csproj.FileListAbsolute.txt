@@ -1,0 +1,6 @@
+C:\DVLD System\DVLD_Classes\ConnectionString\ClsConnectionStringLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\ConnectionString\ClsConnectionStringLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\ConnectionString\ClsConnectionStringLayer\obj\Debug\ClsConnectionStringLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\ConnectionString\ClsConnectionStringLayer\obj\Debug\ClsConnectionStringLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\ConnectionString\ClsConnectionStringLayer\obj\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\ConnectionString\ClsConnectionStringLayer\obj\Debug\ClsConnectionStringLayer.pdb

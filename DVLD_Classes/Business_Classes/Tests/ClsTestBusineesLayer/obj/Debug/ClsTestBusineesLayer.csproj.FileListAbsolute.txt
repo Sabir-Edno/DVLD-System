@@ -1,0 +1,11 @@
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\bin\Debug\ClsTestBusineesLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\bin\Debug\ClsTestBusineesLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\bin\Debug\ClsTestDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\bin\Debug\ClsTestDataAccessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\obj\Debug\ClsTestBusineesLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\obj\Debug\ClsTestBusineesLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\obj\Debug\ClsTestB.38EC7963.Up2Date
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\obj\Debug\ClsTestBusineesLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Tests\ClsTestBusineesLayer\obj\Debug\ClsTestBusineesLayer.pdb

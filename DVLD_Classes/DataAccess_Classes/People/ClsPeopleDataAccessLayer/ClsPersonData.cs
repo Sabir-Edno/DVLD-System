@@ -1495,7 +1495,9 @@ namespace ClsPeopleDataAccessLayer
         public static DataTable GetAllPeople()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT * FROM People";
+            string query = "Select PersonID , NationalNo , FirstName , SecondName , ThirdName , LastName , DateOfBirth , " +
+                "Gendor = case when Gendor = 0 then 'Male' else 'Female' end , Countries.CountryName , " +
+                "Phone , Email , Address from People inner join Countries on People.NationalityCountryID = Countries.CountryID";
             try
             {
                 using (SqlConnection connection = new SqlConnection(ClsConnectionString.ConnectionString))

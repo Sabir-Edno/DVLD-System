@@ -1,0 +1,11 @@
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\bin\Debug\ClsApplicationBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\bin\Debug\ClsApplicationBusinessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\bin\Debug\ClsApplicationDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\bin\Debug\ClsApplicationDataAccessLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\obj\Debug\ClsApplicationBusinessLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\obj\Debug\ClsApplicationBusinessLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\obj\Debug\ClsAppli.1D1FBA8A.Up2Date
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\obj\Debug\ClsApplicationBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Business_Classes\Applications\ClsApplicationBusinessLayer\obj\Debug\ClsApplicationBusinessLayer.pdb
