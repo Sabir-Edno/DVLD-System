@@ -1,0 +1,13 @@
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\bin\Debug\ClsGlobalUserLayer.dll
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\bin\Debug\ClsGlobalUserLayer.pdb
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\bin\Debug\ClsUserBusinessLayer.dll
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\bin\Debug\ClsUserDataAccessLayer.dll
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\bin\Debug\ClsConnectionStringLayer.dll
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\bin\Debug\ClsUserBusinessLayer.pdb
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\bin\Debug\ClsUserDataAccessLayer.pdb
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\bin\Debug\ClsConnectionStringLayer.pdb
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\obj\Debug\ClsGlobalUserLayer.csproj.AssemblyReference.cache
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\obj\Debug\ClsGlobalUserLayer.csproj.CoreCompileInputs.cache
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\obj\Debug\ClsGloba.3AA961F8.Up2Date
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\obj\Debug\ClsGlobalUserLayer.dll
+C:\DVLD System\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\obj\Debug\ClsGlobalUserLayer.pdb

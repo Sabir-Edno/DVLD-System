@@ -60,7 +60,6 @@ C:\DVLD System\DVLD System\DVLD System\bin\Debug\ClsTestTypedDataAccessLayer.pdb
 C:\DVLD System\DVLD System\DVLD System\bin\Debug\ClsUserDataAccessLayer.pdb
 C:\DVLD System\DVLD System\DVLD System\bin\Debug\ClsConnectionStringLayer.pdb
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD System.csproj.AssemblyReference.cache
-C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.MainScreen.resources
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.Properties.Resources.resources
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD System.csproj.GenerateResource.cache
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD System.csproj.CoreCompileInputs.cache
@@ -74,3 +73,7 @@ C:\DVLD System\DVLD System\DVLD System\bin\Debug\ClsUtilLayer.pdb
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrAddOrEditPersonInfo.resources
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.CtrlShowPersonInfo.resources
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrShowPersonInfo.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrLoginScreen.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrMainScreen.resources
+C:\DVLD System\DVLD System\DVLD System\bin\Debug\ClsGlobalUserLayer.dll
+C:\DVLD System\DVLD System\DVLD System\bin\Debug\ClsGlobalUserLayer.pdb

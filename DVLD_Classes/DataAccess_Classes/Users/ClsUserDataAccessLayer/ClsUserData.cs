@@ -589,5 +589,72 @@ namespace ClsUserDataAccessLayer
 
             return dt;
         }
+
+        public static bool IsUsernameAndPasswordCorrect(string Username , string Password)
+        {
+            bool isFound = false;
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(ClsConnectionString.ConnectionString))
+                {
+                    using (SqlCommand command = new SqlCommand("SP_IsUsernameAndPasswordCorrect", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddWithValue("@Username", Username);
+                        command.Parameters.AddWithValue("@Password", Password);
+                        connection.Open();
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            isFound = reader.HasRows;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                isFound = false;
+            }
+            finally
+            {
+
+            }
+
+            return isFound;
+        }
+
+        public static bool IsUserActive(string Username)
+        {
+            bool isFound = false;
+
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(ClsConnectionString.ConnectionString))
+                {
+                    using (SqlCommand command = new SqlCommand("SP_IsUserActive", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.AddWithValue("@Username", Username);
+                        connection.Open();
+
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            isFound = reader.HasRows;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                isFound = false;
+            }
+            finally
+            {
+
+            }
+
+            return isFound;
+        }
     }
 }

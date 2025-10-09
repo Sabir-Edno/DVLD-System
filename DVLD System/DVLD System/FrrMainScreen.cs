@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DVLD_System
 {
-    public partial class MainScreen : Form
+    public partial class FrrMainScreen : Form
     {
-        public MainScreen()
+        public FrrMainScreen()
         {
             InitializeComponent();
         }

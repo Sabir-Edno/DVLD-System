@@ -62,6 +62,12 @@
     <Compile Include="FrrAddOrEditPersonInfo.Designer.cs">
       <DependentUpon>FrrAddOrEditPersonInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrrLoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrLoginScreen.Designer.cs">
+      <DependentUpon>FrrLoginScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrrManagePeopleScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,11 +80,11 @@
     <Compile Include="FrrShowPersonInfo.Designer.cs">
       <DependentUpon>FrrShowPersonInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainScreen.cs">
+    <Compile Include="FrrMainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainScreen.Designer.cs">
-      <DependentUpon>MainScreen.cs</DependentUpon>
+    <Compile Include="FrrMainScreen.Designer.cs">
+      <DependentUpon>FrrMainScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,14 +94,17 @@
     <EmbeddedResource Include="FrrAddOrEditPersonInfo.resx">
       <DependentUpon>FrrAddOrEditPersonInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrrLoginScreen.resx">
+      <DependentUpon>FrrLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrrManagePeopleScreen.resx">
       <DependentUpon>FrrManagePeopleScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrrShowPersonInfo.resx">
       <DependentUpon>FrrShowPersonInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainScreen.resx">
-      <DependentUpon>MainScreen.cs</DependentUpon>
+    <EmbeddedResource Include="FrrMainScreen.resx">
+      <DependentUpon>FrrMainScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -176,6 +185,10 @@
     <ProjectReference Include="..\..\DVLD_Classes\Business_Classes\Users\ClsUserBusinessLayer\ClsUserBusinessLayer.csproj">
       <Project>{71a15e9d-6296-4727-ba60-b85abf039999}</Project>
       <Name>ClsUserBusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DVLD_Classes\Global_Classes\ClsGlobalUserLayer\ClsGlobalUserLayer.csproj">
+      <Project>{759d5cdc-1dd9-49d8-a300-5ffb109456bb}</Project>
+      <Name>ClsGlobalUserLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\DVLD_Classes\Global_Classes\ClsUtilLayer\ClsUtilLayer.csproj">
       <Project>{3e01b829-d542-46e5-8e3a-394859e938a4}</Project>

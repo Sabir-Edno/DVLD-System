@@ -163,5 +163,15 @@ namespace ClsUserBusinessLayer
         {
             return ClsUserData.GetAllUsers();
         }
+
+        public static bool IsUsernameAndPasswordCorrect(string Username , string Password)
+        {
+            return ClsUserData.IsUsernameAndPasswordCorrect(Username , Password);
+        }
+
+        public static bool IsUserActive(string Username)
+        {
+            return ClsUserData.IsUserActive(Username);
+        }
     }
 }
