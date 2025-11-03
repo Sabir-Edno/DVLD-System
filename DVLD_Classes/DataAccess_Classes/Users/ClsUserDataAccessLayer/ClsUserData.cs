@@ -560,7 +560,8 @@ namespace ClsUserDataAccessLayer
         public static DataTable GetAllUsers()
         {
             DataTable dt = new DataTable();
-            string query = "SELECT * FROM Users";
+            string query = "Select UserID , Users.PersonID , People.FirstName + ' ' + People.SecondName + ' ' + People.ThirdName + ' ' + People.LastName as FullName," +
+                "UserName , IsActive from Users inner join People on Users.PersonID = People.PersonID";
             try
             {
                 using (SqlConnection connection = new SqlConnection(ClsConnectionString.ConnectionString))

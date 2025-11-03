@@ -24,6 +24,9 @@ namespace DVLD_System
         enum enMode { AddNew = 1 , Update = 2};
         private enMode _Mode = enMode.Update;
 
+        public delegate void DataBackEventHandler(object Sender, int PersonID);
+        public DataBackEventHandler DataBack;
+
         public FrrAddOrEditPersonInfo()
         {
             InitializeComponent();
@@ -348,6 +351,7 @@ namespace DVLD_System
                     lblPersonID.Text = _Person.PersonID.ToString();
                     lblMode.Text = "Update Person Info";
                     MessageBox.Show("Person Added Successfully", "Succed", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    DataBack?.Invoke(this, _Person.PersonID);
                 }
                 else
                 {

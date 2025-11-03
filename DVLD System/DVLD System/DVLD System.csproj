@@ -39,6 +39,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,11 +51,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CtrlPersonCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlPersonCard.Designer.cs">
+      <DependentUpon>CtrlPersonCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="CtrlShowPersonInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="CtrlShowPersonInfo.Designer.cs">
       <DependentUpon>CtrlShowPersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrrAddNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrAddNewUser.Designer.cs">
+      <DependentUpon>FrrAddNewUser.cs</DependentUpon>
     </Compile>
     <Compile Include="FrrAddOrEditPersonInfo.cs">
       <SubType>Form</SubType>
@@ -74,6 +87,12 @@
     <Compile Include="FrrManagePeopleScreen.Designer.cs">
       <DependentUpon>FrrManagePeopleScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrrManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrManageUsers.Designer.cs">
+      <DependentUpon>FrrManageUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrrShowPersonInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,8 +107,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CtrlPersonCard.resx">
+      <DependentUpon>CtrlPersonCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CtrlShowPersonInfo.resx">
       <DependentUpon>CtrlShowPersonInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrrAddNewUser.resx">
+      <DependentUpon>FrrAddNewUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrrAddOrEditPersonInfo.resx">
       <DependentUpon>FrrAddOrEditPersonInfo.cs</DependentUpon>
@@ -99,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrrManagePeopleScreen.resx">
       <DependentUpon>FrrManagePeopleScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrrManageUsers.resx">
+      <DependentUpon>FrrManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrrShowPersonInfo.resx">
       <DependentUpon>FrrShowPersonInfo.cs</DependentUpon>

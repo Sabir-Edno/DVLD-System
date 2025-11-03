@@ -9,7 +9,7 @@ namespace ClsGlobalUserLayer
 {
     public static class ClsGlobalUser
     {
-       static ClsUser User;
+       public static ClsUser User;
 
         public static void LoadUserInfo(string Username ,ref bool IsUserFound)
         {

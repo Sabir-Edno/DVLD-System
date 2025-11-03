@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClsGlobalUserLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,18 @@ namespace DVLD_System
         private void peopleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrrManagePeopleScreen frr = new FrrManagePeopleScreen();
+            frr.ShowDialog();
+        }
+
+        private void singToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ClsGlobalUser.User = null;
+            this.Close();
+        }
+
+        private void usersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrrManageUsers frr = new FrrManageUsers();
             frr.ShowDialog();
         }
     }

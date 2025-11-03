@@ -30,7 +30,7 @@ namespace DVLD_System
                 lblPersonID.Text = PersonID.ToString();
                 lblName.Text = Person.FirstName + " " + Person.SecondName + " " + Person.ThirdName + " " + Person.LastName;
                 lblNationalNo.Text = Person.NationalNo;
-                if (Person.Gendor == 1)
+                if (Person.Gendor == 0)
                     lblGendor.Text = "Male";
                 else
                     lblGendor.Text = "Female";
@@ -63,6 +63,23 @@ namespace DVLD_System
                 frr.ShowDialog();
                 LoadPersonInfo(Person.PersonID);
             }
+        }
+
+        public void ResetValues()
+        {
+            Person = null;
+            lblPersonID.Text = "???";
+            lblName.Text = "???";
+            lblNationalNo.Text = "???";
+            lblPersonID.Text = "???";
+            lblGendor.Text = "???";
+            lblEmail.Text = "???";
+            lblAddress.Text = "???";
+            lblDateOfBirth.Text = "???";
+            lblPhone.Text = "???";
+            lblCountry.Text = "???";
+            pbPersonImage.ImageLocation = null;
+            linkEditPerson.Enabled = false;
         }
     }
 }
