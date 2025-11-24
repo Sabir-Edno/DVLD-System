@@ -19,6 +19,13 @@ namespace DVLD_System
         public CtrlShowPersonInfo()
         {
             InitializeComponent();
+
+            linkEditPerson.Enabled = false;
+        }
+
+        public bool ShowPersonInfo
+        {
+            set { gbPersonInfo.Enabled = value; }
         }
 
         public void LoadPersonInfo(int PersonID)
@@ -52,7 +59,7 @@ namespace DVLD_System
 
         private void CtrlShowPersonInfo_Load(object sender, EventArgs e)
         {
-            linkEditPerson.Enabled = false;
+
         }
 
         private void linkEditPerson_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

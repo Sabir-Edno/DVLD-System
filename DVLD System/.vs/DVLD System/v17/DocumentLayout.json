@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\DVLD System\\DVLD System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frrmanageusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrmanageusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frredittesttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frredittesttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|C:\\DVLD System\\DVLD System\\dvld system\\frraddnewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frraddnewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frrmanagetesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrmanagetesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|C:\\DVLD System\\DVLD System\\dvld system\\frraddnewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frraddnewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frrmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frrmanagetesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrmanagetesttypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|c:\\dvld system\\dvld system\\dvld system\\frrmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D25900-32AD-4264-9F5E-60CF7FD0E22A}|DVLD System\\DVLD System.csproj|solutionrelative:dvld system\\frrmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,38 +63,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrrManageUsers.cs [Design]",
-              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManageUsers.cs",
-              "RelativeDocumentMoniker": "DVLD System\\FrrManageUsers.cs",
-              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManageUsers.cs [Design]",
-              "RelativeToolTip": "DVLD System\\FrrManageUsers.cs [Design]",
+              "Title": "FrrEditTestType.cs [Design]",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrEditTestType.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrEditTestType.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrEditTestType.cs [Design]",
+              "RelativeToolTip": "DVLD System\\FrrEditTestType.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T10:59:24.838Z",
+              "WhenOpened": "2025-11-24T11:04:22.598Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrrAddNewUser.cs",
-              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrAddNewUser.cs",
-              "RelativeDocumentMoniker": "DVLD System\\FrrAddNewUser.cs",
-              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrAddNewUser.cs",
-              "RelativeToolTip": "DVLD System\\FrrAddNewUser.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAtwHUAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FrrManageTestTypes.cs",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManageTestTypes.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrManageTestTypes.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManageTestTypes.cs",
+              "RelativeToolTip": "DVLD System\\FrrManageTestTypes.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T10:53:24.831Z",
+              "WhenOpened": "2025-11-24T10:49:41.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrrAddNewUser.cs [Design]",
-              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrAddNewUser.cs",
-              "RelativeDocumentMoniker": "DVLD System\\FrrAddNewUser.cs",
-              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrAddNewUser.cs [Design]",
-              "RelativeToolTip": "DVLD System\\FrrAddNewUser.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "FrrManageTestTypes.cs [Design]",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManageTestTypes.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrManageTestTypes.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrManageTestTypes.cs [Design]",
+              "RelativeToolTip": "DVLD System\\FrrManageTestTypes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T10:53:22.799Z",
+              "WhenOpened": "2025-11-24T10:49:34.577Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrrMainScreen.cs",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrMainScreen.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrMainScreen.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrMainScreen.cs",
+              "RelativeToolTip": "DVLD System\\FrrMainScreen.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwEAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T10:10:52.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrrMainScreen.cs [Design]",
+              "DocumentMoniker": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrMainScreen.cs",
+              "RelativeDocumentMoniker": "DVLD System\\FrrMainScreen.cs",
+              "ToolTip": "C:\\DVLD System\\DVLD System\\DVLD System\\FrrMainScreen.cs [Design]",
+              "RelativeToolTip": "DVLD System\\FrrMainScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:14:54.036Z",
               "EditorCaption": " [Design]"
             }
           ]

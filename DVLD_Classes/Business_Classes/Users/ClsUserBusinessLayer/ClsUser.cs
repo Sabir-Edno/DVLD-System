@@ -173,5 +173,10 @@ namespace ClsUserBusinessLayer
         {
             return ClsUserData.IsUserActive(Username);
         }
+
+        public static bool _UpdateUserPassword(int UserID , string NewPassword)
+        {
+            return ClsUserData.UpdateUserPassword(UserID , NewPassword);
+        }
     }
 }

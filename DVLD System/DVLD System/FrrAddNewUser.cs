@@ -71,6 +71,8 @@ namespace DVLD_System
 
                 ctrlPersonCard1.DisableFindPersonCard = true;
                 btnSave.Enabled = true;
+
+                ctrlPersonCard1.DisableFindPersonCard = false;
             }
         }
 
@@ -99,9 +101,19 @@ namespace DVLD_System
 
         private void btnNext_Click(object sender, EventArgs e)
         {
+            if(ctrlPersonCard1.DisableFindPersonCard == false)
+            {
+                tabControl1.SelectedIndex = 1;
+                tbUsername.Focus();
+                btnSave.Enabled = true;
+                ctrlPersonCard1.LoadPersonInfo(_PersonID);
+                return;
+            }
+
+
             if (_PersonID != -1)
             {
-                if (ClsUser.FindByPersonID(_PersonID) == null)
+                if (!ClsUser.IsUserExistByPersonID(_PersonID))
                 {
                     tabControl1.SelectedIndex = 1;
                     tbUsername.Focus();

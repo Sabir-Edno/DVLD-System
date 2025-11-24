@@ -9,13 +9,13 @@ namespace ClsGlobalUserLayer
 {
     public static class ClsGlobalUser
     {
-       public static ClsUser User;
+       public static ClsUser CurrentUser;
 
         public static void LoadUserInfo(string Username ,ref bool IsUserFound)
         {
-            User = ClsUser.FindByUserName(Username);
+            CurrentUser = ClsUser.FindByUserName(Username);
 
-            if(User != null)
+            if(CurrentUser != null)
                 IsUserFound = true;
             else
                 IsUserFound = false;

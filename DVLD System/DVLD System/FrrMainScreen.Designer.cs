@@ -31,6 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrrMainScreen));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.applicationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.driverToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageApplicationsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.detainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageApplicationTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.peopleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.driversToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,11 +44,11 @@
             this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.singToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pbSystemLogo = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pbSystemLogo = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSystemLogo)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSystemLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -63,11 +68,49 @@
             // 
             // applicationToolStripMenuItem
             // 
+            this.applicationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.driverToolStripMenuItem,
+            this.manageApplicationsToolStripMenuItem,
+            this.detainToolStripMenuItem,
+            this.manageApplicationTypesToolStripMenuItem,
+            this.manageToolStripMenuItem});
             this.applicationToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("applicationToolStripMenuItem.Image")));
             this.applicationToolStripMenuItem.Name = "applicationToolStripMenuItem";
             this.applicationToolStripMenuItem.Size = new System.Drawing.Size(126, 24);
             this.applicationToolStripMenuItem.Text = "Applications";
             this.applicationToolStripMenuItem.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            // 
+            // driverToolStripMenuItem
+            // 
+            this.driverToolStripMenuItem.Name = "driverToolStripMenuItem";
+            this.driverToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.driverToolStripMenuItem.Text = "Driving Licenses Serivce";
+            // 
+            // manageApplicationsToolStripMenuItem
+            // 
+            this.manageApplicationsToolStripMenuItem.Name = "manageApplicationsToolStripMenuItem";
+            this.manageApplicationsToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.manageApplicationsToolStripMenuItem.Text = "Manage Applications";
+            // 
+            // detainToolStripMenuItem
+            // 
+            this.detainToolStripMenuItem.Name = "detainToolStripMenuItem";
+            this.detainToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.detainToolStripMenuItem.Text = "Detain Licenses";
+            // 
+            // manageApplicationTypesToolStripMenuItem
+            // 
+            this.manageApplicationTypesToolStripMenuItem.Name = "manageApplicationTypesToolStripMenuItem";
+            this.manageApplicationTypesToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.manageApplicationTypesToolStripMenuItem.Text = "Manage Application Types";
+            this.manageApplicationTypesToolStripMenuItem.Click += new System.EventHandler(this.manageApplicationTypesToolStripMenuItem_Click);
+            // 
+            // manageToolStripMenuItem
+            // 
+            this.manageToolStripMenuItem.Name = "manageToolStripMenuItem";
+            this.manageToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
+            this.manageToolStripMenuItem.Text = "Manage Test Types";
+            this.manageToolStripMenuItem.Click += new System.EventHandler(this.manageToolStripMenuItem_Click);
             // 
             // peopleToolStripMenuItem
             // 
@@ -109,12 +152,14 @@
             this.currentUserInfoToolStripMenuItem.Name = "currentUserInfoToolStripMenuItem";
             this.currentUserInfoToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.currentUserInfoToolStripMenuItem.Text = "Current User Info";
+            this.currentUserInfoToolStripMenuItem.Click += new System.EventHandler(this.currentUserInfoToolStripMenuItem_Click);
             // 
             // changePasswordToolStripMenuItem
             // 
             this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
             this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.changePasswordToolStripMenuItem.Text = "Change Password";
+            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -128,16 +173,6 @@
             this.singToolStripMenuItem.Text = "Sign Out";
             this.singToolStripMenuItem.Click += new System.EventHandler(this.singToolStripMenuItem_Click);
             // 
-            // pbSystemLogo
-            // 
-            this.pbSystemLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbSystemLogo.Image")));
-            this.pbSystemLogo.Location = new System.Drawing.Point(468, 367);
-            this.pbSystemLogo.Name = "pbSystemLogo";
-            this.pbSystemLogo.Size = new System.Drawing.Size(1173, 432);
-            this.pbSystemLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbSystemLogo.TabIndex = 0;
-            this.pbSystemLogo.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
@@ -147,6 +182,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1924, 1027);
             this.panel1.TabIndex = 0;
+            // 
+            // pbSystemLogo
+            // 
+            this.pbSystemLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbSystemLogo.Image")));
+            this.pbSystemLogo.Location = new System.Drawing.Point(468, 367);
+            this.pbSystemLogo.Name = "pbSystemLogo";
+            this.pbSystemLogo.Size = new System.Drawing.Size(1173, 432);
+            this.pbSystemLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbSystemLogo.TabIndex = 0;
+            this.pbSystemLogo.TabStop = false;
             // 
             // FrrMainScreen
             // 
@@ -163,8 +208,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSystemLogo)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbSystemLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,6 +228,11 @@
         private System.Windows.Forms.ToolStripMenuItem changePasswordToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem singToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem driverToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageApplicationsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem detainToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageApplicationTypesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageToolStripMenuItem;
     }
 }
 

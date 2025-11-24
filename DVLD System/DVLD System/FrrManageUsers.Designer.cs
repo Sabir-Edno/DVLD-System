@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrrManageUsers));
-            this.rbActive = new System.Windows.Forms.RadioButton();
             this.btnClose = new System.Windows.Forms.Button();
             this.tbFilter = new System.Windows.Forms.TextBox();
             this.pbAddNewUser = new System.Windows.Forms.PictureBox();
@@ -45,29 +44,16 @@
             this.addNewPersonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.rbInActive = new System.Windows.Forms.RadioButton();
+            this.changePasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DGVUsers = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.pbIconPeople = new System.Windows.Forms.PictureBox();
+            this.CbIsActive = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbAddNewUser)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVUsers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbIconPeople)).BeginInit();
             this.SuspendLayout();
-            // 
-            // rbActive
-            // 
-            this.rbActive.AutoSize = true;
-            this.rbActive.Checked = true;
-            this.rbActive.Location = new System.Drawing.Point(386, 292);
-            this.rbActive.Name = "rbActive";
-            this.rbActive.Size = new System.Drawing.Size(65, 20);
-            this.rbActive.TabIndex = 23;
-            this.rbActive.TabStop = true;
-            this.rbActive.Text = "Active";
-            this.rbActive.UseVisualStyleBackColor = true;
-            this.rbActive.Visible = false;
-            this.rbActive.CheckedChanged += new System.EventHandler(this.rbActive_CheckedChanged);
             // 
             // btnClose
             // 
@@ -147,38 +133,42 @@
             // phoneCallToolStripMenuItem
             // 
             this.phoneCallToolStripMenuItem.Name = "phoneCallToolStripMenuItem";
-            this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
+            this.phoneCallToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.phoneCallToolStripMenuItem.Text = "Phone Call";
             // 
             // sendToolStripMenuItem
             // 
             this.sendToolStripMenuItem.Name = "sendToolStripMenuItem";
-            this.sendToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
+            this.sendToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.sendToolStripMenuItem.Text = "Send Email";
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.deleteToolStripMenuItem.Text = "Delete";
+            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // updatePersonToolStripMenuItem
             // 
             this.updatePersonToolStripMenuItem.Name = "updatePersonToolStripMenuItem";
-            this.updatePersonToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
+            this.updatePersonToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.updatePersonToolStripMenuItem.Text = "Update Person";
+            this.updatePersonToolStripMenuItem.Click += new System.EventHandler(this.updatePersonToolStripMenuItem_Click);
             // 
             // addNewPersonToolStripMenuItem
             // 
             this.addNewPersonToolStripMenuItem.Name = "addNewPersonToolStripMenuItem";
-            this.addNewPersonToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
+            this.addNewPersonToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.addNewPersonToolStripMenuItem.Text = "Add New Person";
+            this.addNewPersonToolStripMenuItem.Click += new System.EventHandler(this.addNewPersonToolStripMenuItem_Click);
             // 
             // showDetailsToolStripMenuItem
             // 
             this.showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
-            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(187, 24);
+            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.showDetailsToolStripMenuItem.Text = "Show Details";
+            this.showDetailsToolStripMenuItem.Click += new System.EventHandler(this.showDetailsToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
@@ -189,20 +179,17 @@
             this.updatePersonToolStripMenuItem,
             this.deleteToolStripMenuItem,
             this.sendToolStripMenuItem,
-            this.phoneCallToolStripMenuItem});
+            this.phoneCallToolStripMenuItem,
+            this.changePasswordToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(188, 148);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(194, 172);
             // 
-            // rbInActive
+            // changePasswordToolStripMenuItem
             // 
-            this.rbInActive.AutoSize = true;
-            this.rbInActive.Location = new System.Drawing.Point(462, 292);
-            this.rbInActive.Name = "rbInActive";
-            this.rbInActive.Size = new System.Drawing.Size(75, 20);
-            this.rbInActive.TabIndex = 24;
-            this.rbInActive.Text = "InActive";
-            this.rbInActive.UseVisualStyleBackColor = true;
-            this.rbInActive.Visible = false;
+            this.changePasswordToolStripMenuItem.Name = "changePasswordToolStripMenuItem";
+            this.changePasswordToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.changePasswordToolStripMenuItem.Text = "Change Password";
+            this.changePasswordToolStripMenuItem.Click += new System.EventHandler(this.changePasswordToolStripMenuItem_Click);
             // 
             // DGVUsers
             // 
@@ -224,7 +211,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins Black", 17F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Firebrick;
-            this.label1.Location = new System.Drawing.Point(444, 208);
+            this.label1.Location = new System.Drawing.Point(453, 208);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(240, 51);
             this.label1.TabIndex = 14;
@@ -240,13 +227,23 @@
             this.pbIconPeople.TabIndex = 13;
             this.pbIconPeople.TabStop = false;
             // 
+            // CbIsActive
+            // 
+            this.CbIsActive.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CbIsActive.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CbIsActive.FormattingEnabled = true;
+            this.CbIsActive.Location = new System.Drawing.Point(398, 289);
+            this.CbIsActive.Name = "CbIsActive";
+            this.CbIsActive.Size = new System.Drawing.Size(121, 24);
+            this.CbIsActive.TabIndex = 23;
+            this.CbIsActive.SelectedIndexChanged += new System.EventHandler(this.CbIsActive_SelectedIndexChanged);
+            // 
             // FrrManageUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1149, 753);
-            this.Controls.Add(this.rbInActive);
-            this.Controls.Add(this.rbActive);
+            this.Controls.Add(this.CbIsActive);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.tbFilter);
             this.Controls.Add(this.pbAddNewUser);
@@ -272,7 +269,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.RadioButton rbActive;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.TextBox tbFilter;
         private System.Windows.Forms.PictureBox pbAddNewUser;
@@ -287,9 +283,10 @@
         private System.Windows.Forms.ToolStripMenuItem addNewPersonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem showDetailsToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.RadioButton rbInActive;
         private System.Windows.Forms.DataGridView DGVUsers;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pbIconPeople;
+        private System.Windows.Forms.ComboBox CbIsActive;
+        private System.Windows.Forms.ToolStripMenuItem changePasswordToolStripMenuItem;
     }
 }

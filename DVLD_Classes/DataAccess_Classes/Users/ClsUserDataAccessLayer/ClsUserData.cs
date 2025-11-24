@@ -657,5 +657,39 @@ namespace ClsUserDataAccessLayer
 
             return isFound;
         }
+
+        public static bool UpdateUserPassword(int UserID , string NewPassword)
+        {
+            int rowsAffected = 0;
+            string query = @"UPDATE Users  
+                                        SET 
+                            Password = @NewPassword
+                            WHERE UserID = @UserID";
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(ClsConnectionString.ConnectionString))
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+
+                        command.Parameters.AddWithValue("@UserID", UserID);
+                        command.Parameters.AddWithValue("@NewPassword", NewPassword);
+                        connection.Open();
+                        rowsAffected = command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+            finally
+            {
+
+            }
+
+            return (rowsAffected > 0);
+        }
     }
 }

@@ -29,31 +29,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CtrlPersonCard));
-            this.GbFindCardPerson = new System.Windows.Forms.GroupBox();
+            this.GbPersonCard = new System.Windows.Forms.GroupBox();
+            this.ctrlShowPersonInfo1 = new DVLD_System.CtrlShowPersonInfo();
             this.pbSearch = new System.Windows.Forms.PictureBox();
             this.pbAddNewPerson = new System.Windows.Forms.PictureBox();
             this.tbFilter = new System.Windows.Forms.TextBox();
             this.cbFilterBy = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.ctrlShowPersonInfo1 = new DVLD_System.CtrlShowPersonInfo();
-            this.GbFindCardPerson.SuspendLayout();
+            this.GbPersonCard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAddNewPerson)).BeginInit();
             this.SuspendLayout();
             // 
-            // GbFindCardPerson
+            // GbPersonCard
             // 
-            this.GbFindCardPerson.Controls.Add(this.pbSearch);
-            this.GbFindCardPerson.Controls.Add(this.pbAddNewPerson);
-            this.GbFindCardPerson.Controls.Add(this.tbFilter);
-            this.GbFindCardPerson.Controls.Add(this.cbFilterBy);
-            this.GbFindCardPerson.Controls.Add(this.label3);
-            this.GbFindCardPerson.Location = new System.Drawing.Point(3, 3);
-            this.GbFindCardPerson.Name = "GbFindCardPerson";
-            this.GbFindCardPerson.Size = new System.Drawing.Size(1019, 108);
-            this.GbFindCardPerson.TabIndex = 0;
-            this.GbFindCardPerson.TabStop = false;
-            this.GbFindCardPerson.Text = "Filter";
+            this.GbPersonCard.Controls.Add(this.pbSearch);
+            this.GbPersonCard.Controls.Add(this.pbAddNewPerson);
+            this.GbPersonCard.Controls.Add(this.tbFilter);
+            this.GbPersonCard.Controls.Add(this.cbFilterBy);
+            this.GbPersonCard.Controls.Add(this.label3);
+            this.GbPersonCard.Location = new System.Drawing.Point(3, 3);
+            this.GbPersonCard.Name = "GbPersonCard";
+            this.GbPersonCard.Size = new System.Drawing.Size(1019, 100);
+            this.GbPersonCard.TabIndex = 0;
+            this.GbPersonCard.TabStop = false;
+            this.GbPersonCard.Text = "Filter";
+            // 
+            // ctrlShowPersonInfo1
+            // 
+            this.ctrlShowPersonInfo1.Location = new System.Drawing.Point(5, 110);
+            this.ctrlShowPersonInfo1.Name = "ctrlShowPersonInfo1";
+            this.ctrlShowPersonInfo1.Size = new System.Drawing.Size(1025, 337);
+            this.ctrlShowPersonInfo1.TabIndex = 25;
             // 
             // pbSearch
             // 
@@ -109,24 +116,17 @@
             this.label3.TabIndex = 20;
             this.label3.Text = "Filter By :";
             // 
-            // ctrlShowPersonInfo1
-            // 
-            this.ctrlShowPersonInfo1.Location = new System.Drawing.Point(0, 115);
-            this.ctrlShowPersonInfo1.Name = "ctrlShowPersonInfo1";
-            this.ctrlShowPersonInfo1.Size = new System.Drawing.Size(1025, 337);
-            this.ctrlShowPersonInfo1.TabIndex = 1;
-            // 
             // CtrlPersonCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.ctrlShowPersonInfo1);
-            this.Controls.Add(this.GbFindCardPerson);
+            this.Controls.Add(this.GbPersonCard);
             this.Name = "CtrlPersonCard";
             this.Size = new System.Drawing.Size(1025, 458);
             this.Load += new System.EventHandler(this.CtrlPersonCard_Load);
-            this.GbFindCardPerson.ResumeLayout(false);
-            this.GbFindCardPerson.PerformLayout();
+            this.GbPersonCard.ResumeLayout(false);
+            this.GbPersonCard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSearch)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAddNewPerson)).EndInit();
             this.ResumeLayout(false);
@@ -135,7 +135,7 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox GbFindCardPerson;
+        private System.Windows.Forms.GroupBox GbPersonCard;
         private System.Windows.Forms.ComboBox cbFilterBy;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox tbFilter;

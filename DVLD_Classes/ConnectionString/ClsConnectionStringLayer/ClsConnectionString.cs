@@ -10,7 +10,7 @@ namespace ClsConnectionStringLayer
     public class ClsConnectionString
     {
 
-        private const string _ConnectionString = "Server=.;Database=DVLD;User Id=sa;Password=sa123456";
+        private const string _ConnectionString = "Data Source=.;Initial Catalog=DVLD;Integrated Security=SSPI";
 
         public static string ConnectionString { get { return _ConnectionString; } }
 

@@ -80,3 +80,10 @@ C:\DVLD System\DVLD System\DVLD System\bin\Debug\ClsGlobalUserLayer.pdb
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrManageUsers.resources
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.CtrlPersonCard.resources
 C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrAddNewUser.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrChangeUserPassword.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.CtrlShowUserInfo.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrShowUserInfo.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrManageApplicationTypes.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrEditApplicationType.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrEditTestType.resources
+C:\DVLD System\DVLD System\DVLD System\obj\Debug\DVLD_System.FrrManageTestTypes.resources

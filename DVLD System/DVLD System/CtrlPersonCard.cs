@@ -22,9 +22,8 @@ namespace DVLD_System
 
         public bool DisableFindPersonCard
         {
-            get { return GbFindCardPerson.Enabled; }
-
-            set { GbFindCardPerson.Enabled = value; }
+            set { GbPersonCard.Enabled = value; }
+            get { return GbPersonCard.Enabled; }
         }
 
         public event Action<int> OnPersonSelected;
@@ -52,9 +51,12 @@ namespace DVLD_System
 
             if(Person != null)
             {
+                tbFilter.Text = PersonID.ToString();
                 ctrlShowPersonInfo1.LoadPersonInfo(PersonID);
                 if(OnPersonSelected != null)
                     OnPersonSelected(PersonID);
+
+                
             }
             else
             {
@@ -69,6 +71,7 @@ namespace DVLD_System
 
             if (Person != null)
             {
+                tbFilter.Text = NationalNo;
                 ctrlShowPersonInfo1.LoadPersonInfo(Person.PersonID);
                 if (OnPersonSelected != null)
                     OnPersonSelected(Person.PersonID);

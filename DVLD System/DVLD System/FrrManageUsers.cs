@@ -61,11 +61,18 @@ namespace DVLD_System
             cbFilterBy.SelectedIndex = 0;
         }
 
+        private void _FillCbIsActive()
+        {
+            CbIsActive.Items.Add("All");
+            CbIsActive.Items.Add("Active");
+            CbIsActive.Items.Add("InActive");
+        }
+
         private void FrrManageUsers_Load(object sender, EventArgs e)
         {
             tbFilter.Visible = false;
-            rbActive.Visible = false;
-            rbInActive.Visible = false;
+            CbIsActive.Visible = false;
+            _FillCbIsActive();
             _FillDGVUsers();
             _FillCbFilter();
         }
@@ -85,23 +92,19 @@ namespace DVLD_System
             if (cbFilterBy.SelectedItem.ToString() == "None")
             {
                 tbFilter.Visible = false;
-                rbActive.Visible = false;
-                rbInActive.Visible = false;
+                CbIsActive.Visible = false;
                 return;
             }
             else if (cbFilterBy.SelectedItem.ToString() == "IsActive")
             {
                 tbFilter.Visible = false;
-                rbActive.Visible = true;
-                rbInActive.Visible = true;
-                rbActive.Checked = true;
-                rbActive_CheckedChanged(null , null);
+                CbIsActive.Visible = true;
+                CbIsActive.SelectedItem = "All";
             }
             else
             {
                 tbFilter.Visible = true;
-                rbActive.Visible = false;
-                rbInActive.Visible = false;
+                CbIsActive.Visible = false;
             }
 
         }
@@ -111,30 +114,6 @@ namespace DVLD_System
             FrrAddNewUser frr = new FrrAddNewUser();
             frr.ShowDialog();
             _FillDGVUsers();
-        }
-
-        private void FilterActiveUsers()
-        {
-            if (rbActive.Checked)
-                _dtUsers.DefaultView.RowFilter = string.Format("[{0}] = {1}", cbFilterBy.SelectedItem.ToString(), true);
-
-            lblRecords.Text = DGVUsers.Rows.Count.ToString();
-        }
-
-        private void FilterInActiveUsers()
-        {
-            if (rbInActive.Checked)
-                _dtUsers.DefaultView.RowFilter = string.Format("[{0}] = {1}", cbFilterBy.SelectedItem.ToString(), false);
-
-            lblRecords.Text = DGVUsers.Rows.Count.ToString();
-        }
-
-        private void rbActive_CheckedChanged(object sender, EventArgs e)
-        {
-            if (rbActive.Checked)
-                FilterActiveUsers();
-            else if (rbInActive.Checked)
-                FilterInActiveUsers();
         }
 
         private void tbFilter_KeyPress(object sender, KeyPressEventArgs e)
@@ -162,6 +141,70 @@ namespace DVLD_System
                     _dtUsers.DefaultView.RowFilter = string.Format("[{0}] like '{1}%'", cbFilterBy.SelectedItem.ToString(), tbFilter.Text.Trim());
 
                 lblRecords.Text = DGVUsers.Rows.Count.ToString();
+            }
+        }
+
+        private void CbIsActive_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CbIsActive.SelectedItem.ToString() == "All")
+                _dtUsers.DefaultView.RowFilter = "";
+            else if (CbIsActive.SelectedItem.ToString() == "Active")
+                _dtUsers.DefaultView.RowFilter = string.Format("[{0}] = '{1}'", cbFilterBy.SelectedItem, true);
+            else if (CbIsActive.SelectedItem.ToString() == "InActive")
+                _dtUsers.DefaultView.RowFilter = string.Format("[{0}] = '{1}'", cbFilterBy.SelectedItem, false);
+        }
+
+        private void updatePersonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (DGVUsers.Rows.Count > 0)
+            {
+                FrrAddNewUser frr = new FrrAddNewUser((int)DGVUsers.CurrentRow.Cells[0].Value);
+                frr.ShowDialog();
+                _FillDGVUsers();
+            }
+        }
+
+        private void addNewPersonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrrAddNewUser frr = new FrrAddNewUser();
+            frr.ShowDialog();
+            _FillDGVUsers();
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (DGVUsers.Rows.Count > 0)
+            {
+
+                if (MessageBox.Show($"Are you sure do you want delete this user with id = {(int)DGVUsers.CurrentRow.Cells[0].Value} ?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    if (ClsUser.DeleteUser((int)DGVUsers.CurrentRow.Cells[0].Value))
+                    {
+                        MessageBox.Show($"User with id = {(int)DGVUsers.CurrentRow.Cells[0].Value} Deleted Successfully", "User Deleted", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        _FillDGVUsers();
+                    }
+                    else
+                        MessageBox.Show($"User with id = {(int)DGVUsers.CurrentRow.Cells[0].Value} Not Deleted", "User Not Deleted", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (DGVUsers.Rows.Count > 0)
+            {
+                FrrChangeUserPassword frr = new FrrChangeUserPassword((int)DGVUsers.CurrentRow.Cells[0].Value);
+                frr.ShowDialog();
+            }
+        }
+
+        private void showDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (DGVUsers.Rows.Count > 0)
+            {
+                FrrShowUserInfo frr = new FrrShowUserInfo((int)DGVUsers.CurrentRow.Cells[0].Value);
+                frr.ShowDialog();
+                _FillDGVUsers();
             }
         }
     }

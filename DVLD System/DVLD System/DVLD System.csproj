@@ -51,6 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CtrlShowUserInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CtrlShowUserInfo.Designer.cs">
+      <DependentUpon>CtrlShowUserInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="CtrlPersonCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -75,17 +81,47 @@
     <Compile Include="FrrAddOrEditPersonInfo.Designer.cs">
       <DependentUpon>FrrAddOrEditPersonInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrrChangeUserPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrChangeUserPassword.Designer.cs">
+      <DependentUpon>FrrChangeUserPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrrEditApplicationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrEditApplicationType.Designer.cs">
+      <DependentUpon>FrrEditApplicationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrrEditTestType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrEditTestType.Designer.cs">
+      <DependentUpon>FrrEditTestType.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrrLoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrrLoginScreen.Designer.cs">
       <DependentUpon>FrrLoginScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrrManageApplicationTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrManageApplicationTypes.Designer.cs">
+      <DependentUpon>FrrManageApplicationTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrrManagePeopleScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrrManagePeopleScreen.Designer.cs">
       <DependentUpon>FrrManagePeopleScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrrManageTestTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrManageTestTypes.Designer.cs">
+      <DependentUpon>FrrManageTestTypes.cs</DependentUpon>
     </Compile>
     <Compile Include="FrrManageUsers.cs">
       <SubType>Form</SubType>
@@ -105,8 +141,17 @@
     <Compile Include="FrrMainScreen.Designer.cs">
       <DependentUpon>FrrMainScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrrShowUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrrShowUserInfo.Designer.cs">
+      <DependentUpon>FrrShowUserInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CtrlShowUserInfo.resx">
+      <DependentUpon>CtrlShowUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CtrlPersonCard.resx">
       <DependentUpon>CtrlPersonCard.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,11 +164,26 @@
     <EmbeddedResource Include="FrrAddOrEditPersonInfo.resx">
       <DependentUpon>FrrAddOrEditPersonInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrrChangeUserPassword.resx">
+      <DependentUpon>FrrChangeUserPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrrEditApplicationType.resx">
+      <DependentUpon>FrrEditApplicationType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrrEditTestType.resx">
+      <DependentUpon>FrrEditTestType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrrLoginScreen.resx">
       <DependentUpon>FrrLoginScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrrManageApplicationTypes.resx">
+      <DependentUpon>FrrManageApplicationTypes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrrManagePeopleScreen.resx">
       <DependentUpon>FrrManagePeopleScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrrManageTestTypes.resx">
+      <DependentUpon>FrrManageTestTypes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrrManageUsers.resx">
       <DependentUpon>FrrManageUsers.cs</DependentUpon>
@@ -134,6 +194,9 @@
     <EmbeddedResource Include="FrrMainScreen.resx">
       <DependentUpon>FrrMainScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrrShowUserInfo.resx">
+      <DependentUpon>FrrShowUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -142,6 +205,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
@@ -222,6 +286,12 @@
       <Project>{3e01b829-d542-46e5-8e3a-394859e938a4}</Project>
       <Name>ClsUtilLayer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\testing.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

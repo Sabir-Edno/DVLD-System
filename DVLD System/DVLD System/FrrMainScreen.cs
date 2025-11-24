@@ -31,7 +31,7 @@ namespace DVLD_System
 
         private void singToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ClsGlobalUser.User = null;
+            ClsGlobalUser.CurrentUser = null;
             this.Close();
         }
 
@@ -40,5 +40,31 @@ namespace DVLD_System
             FrrManageUsers frr = new FrrManageUsers();
             frr.ShowDialog();
         }
+
+        private void currentUserInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrrShowUserInfo frr = new FrrShowUserInfo(ClsGlobalUser.CurrentUser.UserID);
+            frr.ShowDialog();
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrrChangeUserPassword frr = new FrrChangeUserPassword(ClsGlobalUser.CurrentUser.UserID);
+            frr.ShowDialog();
+        }
+
+        private void manageApplicationTypesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrrManageApplicationTypes frr = new FrrManageApplicationTypes();
+            frr.ShowDialog();
+        }
+
+        private void manageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrrManageTestTypes frr = new FrrManageTestTypes();
+            frr.ShowDialog();
+        }
+
+      
     }
 }
